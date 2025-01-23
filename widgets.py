@@ -64,19 +64,15 @@ class WeightInput(ctk.CTkFrame):
     
     def minus_small(self):
         self.weight.set(round(self.weight.get() - 1, 2))
-        print(self.weight.get())
 
     def minus_big(self):
         self.weight.set(round(self.weight.get() - 5, 2))
-        print(self.weight)
 
     def add_small(self):
         self.weight.set(round(self.weight.get() + 1, 2))
-        print(self.weight)
 
     def add_big(self):
         self.weight.set(round(self.weight.get() + 5, 2))
-        print(self.weight)
 
 class HeightInput(ctk.CTkFrame):
     def __init__(self, parent, ht):
