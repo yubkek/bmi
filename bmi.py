@@ -21,6 +21,8 @@ class BMI(ctk.CTk):
 
         # widgets
         ResultText(self)
+        WeightInput(self)
+        HeightInput(self)
 
         # run
         self.mainloop()
